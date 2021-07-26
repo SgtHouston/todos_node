@@ -3,12 +3,12 @@ const db = {
         {
             id: 1,
             text: "Buy milk",
-            completed: false
+            completed: true
         },
         {
             id: 2,
             text: "Buy eggs",
-            completed: false
+            completed: true
         },
         {
             id: 3,
@@ -27,3 +27,5 @@ const db = {
         },
     ]
 }
+
+module.exports = db
